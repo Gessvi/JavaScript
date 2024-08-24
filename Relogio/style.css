@@ -1,5 +1,11 @@
 body{
-    background-color: burlywood;
+    background-image: url('lua.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
 }
 main{
     width: 100%;
@@ -11,9 +17,12 @@ main{
 span{
     font-size: 50px;
     margin: 5px;
-    padding: 10px;
+    padding: 25px;
     border-radius: 5px;
 }
 #hour, #min, #sec{
-    background-color: blanchedalmond;
+    box-shadow: 2px 2px 2px #000000c4;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    text-decoration: none;
 }
