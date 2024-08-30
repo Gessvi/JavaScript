@@ -1,9 +1,5 @@
-const modal = document.querySelector('.container');
-
-function onOpen() {
-    modal.classList.add('active');
-}
-
-function onClose() {
-    modal.classList.remove('active');
+function mostrarSenha() {
+    const senhaInput = document.getElementById('senha');
+    const tipo = senhaInput.type === 'password' ? 'text' : 'password';
+    senhaInput.type = tipo;
 }
