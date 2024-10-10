@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <title>Previão do Tempo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div id="container">
+            <form id="search">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="search" name="city_name" id="city_name" placeholder="Burcas Cidade">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+        <div id="weather">
+                    <h1 id="title"> Salvador, BR</h1>
+
+            <div id="infos">
+                <div id="temp">
+                        <img id="temp_img" src="nuvem.png" alt="">
+
+                        
+                    <div>
+                        <p id="temp_value">
+                            32 <sup>Cº<sup>
+                        </p>
+                        <p id="temp_description">
+                            Ensolarado
+                        </p>
+                    </div>
+
+                    <div id="other_infos">
+                        <div class="info">
+                            <i id="temp_max_icon" class="fa-solid fa-temperature-high"></i>
+
+                            <div id="temp_max">
+                                <h2>Temp. Max</h2>
+
+                                <p>
+                                    32 <sup>Cº</sup>
+                                </p>
+                            </div>
+                        
+
+                
+                                <div class="info">
+                                    <i id="temp_mix_icon" class="fa-solid fa-temperature-low"></i>
+            
+                                    <div>
+                                        <h2>Temp. Max</h2>
+            
+                                        <p id="temp_mix">
+                                            12 <sup>Cº</sup>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="info">
+                                    <i id="humidity_icon" class="fa-solid fa-droplet"></i>
+            
+                                    <div>
+                                        <h2>Umidade</h2>
+            
+                                        <p id="humidily">
+                                            50%
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>  
+    </body>
+    </html>
