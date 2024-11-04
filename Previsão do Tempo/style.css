@@ -16,7 +16,7 @@ body{
 #container{
     background-color: #f0f8ff;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 #search{
